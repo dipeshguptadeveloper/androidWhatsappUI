@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             add(FragmentModel(R.drawable.call, "Calls"))
             add(FragmentModel(R.drawable.community, "Communities"))
             add(FragmentModel(R.drawable.chat, "Chats"))
-            add(FragmentModel(R.drawable.status, "Settings"))
+            add(FragmentModel(R.drawable.settings, "Settings"))
         }
 
         binding.viewPager.adapter = FragmentDataAdapter(supportFragmentManager, lifecycle)
