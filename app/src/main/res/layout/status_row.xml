@@ -29,20 +29,15 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txtUserChat"
+            android:id="@+id/txtUserStatusTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chat"
+            android:text="03:30 AM"
             android:textSize="16sp" />
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/txtUserChatTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="03:30 AM"
-        android:textSize="16sp" />
+
 
 
 </LinearLayout>
