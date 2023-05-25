@@ -32,7 +32,6 @@ class StatusFragment : Fragment() {
             add(StatusModel(R.drawable.user_9, "Akshay", "12:05 PM"))
             add(StatusModel(R.drawable.user_10, "Uttam", "11:05 AM"))
             add(StatusModel(R.drawable.user_11, "Prafull", "12:05 PM"))
-
             add(StatusModel(R.drawable.user_1, "Dipesh", "10:30"))
             add(StatusModel(R.drawable.user_2, "Saurabh", "11:05 AM"))
             add(StatusModel(R.drawable.user_3, "Ankita", "12:05 PM"))

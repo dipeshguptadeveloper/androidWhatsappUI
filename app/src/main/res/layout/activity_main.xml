@@ -4,10 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     android:orientation="vertical"
     tools:context=".activity.MainActivity">
 
     <com.google.android.material.tabs.TabLayout
+        app:tabBackground="@color/black"
+        app:tabTextColor="@color/white"
+        app:tabIconTint="@color/white"
+        app:tabIndicatorColor="#1D4FDF"
+        app:tabSelectedTextColor="#1D4FDF"
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
